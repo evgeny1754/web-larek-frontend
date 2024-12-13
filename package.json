@@ -42,6 +42,7 @@
 		"start": "webpack serve --mode=development",
 		"lint": "eslint --ext .js,.ts ./src",
 		"lint:fix": "npm run lint -- --fix",
+		"tslint": "tsc --noEmit",
 		"format": "prettier ./src --write",
 		"deploy": "gh-pages -d dist"
 	}
